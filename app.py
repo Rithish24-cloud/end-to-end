@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from Flask DevOps Project! it is safe?"
+    return "Hello from Flask DevOps Project! it is safe?  i have this "
 
 @app.route("/about")
 def about():
