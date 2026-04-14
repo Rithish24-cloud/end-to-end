@@ -4,11 +4,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from Flask DevOps Project!"
+    return "Hello from Flask DevOps Project! it is safe?"
 
 @app.route("/about")
 def about():
-    return "This is an end-to-end CI/CD pipeline project on AWS."
+    return "This is an end-to-end CI/CD pipeline project on AWS   i'm here."
 
 @app.route("/health")
 def health():
