@@ -8,7 +8,7 @@ def home():
 
 @app.route("/about")
 def about():
-    return "This is an end-to-end CI/CD pipeline project on AWS   i'm here yes it is working."
+    return "This is an end-to-end CI/CD pipeline project on AWS /  hi how are you?."
 
 @app.route("/health")
 def health():
